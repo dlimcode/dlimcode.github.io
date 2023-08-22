@@ -1,0 +1,246 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color */
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the top bar */
+.top-bar {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Style the search bar */
+.search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #d2d2d2;
+}
+
+.search-button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Style the logo */
+.logo {
+    flex: 0.1;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+/* Style the user icons */
+.user-icons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.user-icons a {
+    margin-left: 20px;
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+
+.user-icons a img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Style the header/navigation */
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff6b6b;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #be5656;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 120px 0;
+    background-image: url('../images/bgwallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #be5656;
+}
+
+/* Style the featured products section */
+.featured-products {
+    text-align: center;
+    padding: 80px 0;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.product-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 20px 0;
+}
+
+.product {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width based on the number of products you want to display */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 20px;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100%; /* Set the width to 100% to scale images within the container */
+    height: auto; /* Maintain the aspect ratio of the images */
+    max-width: 300px; /* Set the maximum width as needed */
+    max-height: 200px; /* Set the maximum height as needed */
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6b6b;
+    font-size: 24px;
+}
+
+/* Hide scrollbar in Firefox and IE */
+.product-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* Style the newsletter section */
+.newsletter {
+    text-align: center;
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.newsletter p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+form input[type="email"] {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form button.btn {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button.btn:hover {
+    background-color: #ff6b6b;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 18px;
+}

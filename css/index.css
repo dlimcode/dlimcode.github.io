@@ -1,0 +1,177 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Define the central color theme */
+body {
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header and navigation */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #6A0DAD; /* Highlight color */
+}
+
+/* Style the profile picture within the Intro section */
+.profile-pic {
+    text-align: center;
+    margin-bottom: 20px; /* Add some spacing below the profile picture */
+}
+
+.profile-pic img {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 30%; /* Rounded shape for the profile picture */
+}
+/* Style the introduction section */
+#intro {
+    background-image: url('../images/bgwallpaper.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #000000;
+    padding: 150px 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content {
+    background: rgba(255, 255, 255, 0.322);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffcc5f; /* Social icon color */
+    font-size: 24px;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #333; /* Hover color */
+}
+
+/* Style headings and paragraphs */
+h1, h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Style sections */
+section {
+    padding: 80px 0;
+    text-align: center;
+    background: white;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the Portfolio section */
+#portfolio {
+    background: white;
+    padding: 40px 0;
+}
+
+.portfolio-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+/* Style the headings for each section */
+.portfolio-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style experience and activity sections */
+.experience, .activity {
+    margin-top: 10px;
+}
+
+.experience h4, .activity h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style lists inside experience and activity sections */
+.experience ul, .activity ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Style award sections */
+.award {
+    margin-top: 10px;
+}
+
+.award h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Style lists inside award sections */
+.award ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Style the skills and interests section */
+.skills-interests {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Style the footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
