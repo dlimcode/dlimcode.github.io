@@ -40,6 +40,26 @@ nav ul li a:hover {
     color: #6A0DAD; /* Highlight color */
 }
 
+/* Style the video box */
+.video-box {
+    position: relative;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the video horizontally */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for the video */
+    overflow: hidden;
+    margin-bottom: 0px; /* Adjust the spacing between the video and profile pic */
+}
+
+.video-box iframe {
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    width: 50%;
+    height: 50%;
+}
+
+
+
 /* Style the profile picture within the Intro section */
 .profile-pic {
     text-align: center;
